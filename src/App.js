@@ -3,7 +3,7 @@ import './App.css';
 
 // components
 import About from './components/About';
-import Contact from './components/Contact';
+import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
@@ -63,7 +63,7 @@ function App() {
             <Resume></Resume>
           </>
         ) : (
-          <Contact></Contact>
+          <ContactForm></ContactForm>
         )}
         <Footer></Footer>
       </main>
