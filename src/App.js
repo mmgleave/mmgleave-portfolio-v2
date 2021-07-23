@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './App.css';
 
 // components
-import About from './components/About';
+import About from './components/About'
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
-import Header from './components/Header';
+import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
@@ -54,13 +54,13 @@ function App() {
 
   return (
     <div>
-      <Header></Header>
+      <Nav></Nav>
       <main>
         {!contactSelected ? (
           <>
             <About></About>
-            <Portfolio></Portfolio>
-            <Resume></Resume>
+            {/* <Portfolio></Portfolio> */}
+            {/* <Resume></Resume> */}
           </>
         ) : (
           <ContactForm></ContactForm>
