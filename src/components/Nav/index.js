@@ -9,23 +9,23 @@ function Nav() {
                 </a>
             </h2>
             <nav>
-                <ul className="flex-row">
-                    <li className="mx-2">
+                <ul id="nav">
+                    <li>
                         <a href="/">
                             About Me
                         </a>
                     </li>
-                    <li className="mx-2">
+                    <li>
                         <a href="/">
                             Contact
                         </a>
                     </li>
-                    <li className="mx-2">
+                    <li>
                         <a href="/">
                             Portfolio
                         </a>
                     </li>
-                    <li className="mx-2">
+                    <li>
                         <a href="/">
                             Resume
                         </a>

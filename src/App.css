@@ -31,11 +31,44 @@
 .footer{
   margin-top: 1rem;
   padding: 1rem;
-  background-color: rgb(235, 195, 64);
+  background-color: rgb(131, 163, 139);
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+  border-bottom: 1px solid rgb(62, 92, 69);
+  border-top: 1px solid rgb(62, 92, 69);
+}
+
+.footer p {
+  color: white;
+}
+
+#nav {
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  background-color: rgb(131, 163, 139);
+  border-bottom: 1px solid rgb(62, 92, 69);
+  border-top: 1px solid rgb(62, 92, 69);
+}
+
+#nav li {
+  float: right;
+}
+
+#nav li a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid rgb(62, 92, 69);
+}
+
+#nav li a:hover {
+  color:rgb(62, 92, 69)
 }
 
 @keyframes App-logo-spin {
