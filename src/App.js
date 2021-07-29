@@ -14,9 +14,9 @@ function App() {
   const [projects] = useState([
     {
       image: '',
-      title: '',
+      title: 'Med Planner',
       link: '',
-      repo: ''
+      repo: 'https://github.com/mmgleave/med-planner'
     },
     {
       image: '',
@@ -68,11 +68,11 @@ function App() {
         setResumeSelected={setResumeSelected}
       ></Nav>
       <main>
-        {resumeSelected ? (<Resume></Resume>)
+        {portfolioSelected ? (<Portfolio project={projects}></Portfolio>)
           : contactSelected ? (<ContactForm></ContactForm>)
-            : portfolioSelected ? (<Portfolio></Portfolio>)
-              : (<About></About>)
-        }
+          : resumeSelected ? (<Resume></Resume>)
+          : <About></About>}
+          
         <Footer></Footer>
       </main>
     </div>

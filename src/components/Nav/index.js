@@ -1,6 +1,17 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
+    const {
+        aboutSelected,
+        setAboutSelected,
+        contactSelected,
+        setContactSelected,
+        portfolioSelected,
+        setPortfolioSelected,
+        resumeSelected,
+        setResumeSelected
+    } = props;
+
     return (
         <header>
             <h2>
@@ -10,25 +21,54 @@ function Nav() {
             </h2>
             <nav>
                 <ul id="nav">
-                    <li>
-                        <a href="/">
-                            About Me
-                        </a>
+                    <li className={`${aboutSelected && 'navActive'}`}>
+                        <p
+                            onClick={() => {
+                                setAboutSelected(true);
+                                setContactSelected(false);
+                                setPortfolioSelected(false);
+                                setResumeSelected(false);
+                                console.log('about clicked')
+                            }}
+
+                            >About Me
+                        </p>
                     </li>
-                    <li>
-                        <a href="/">
-                            Contact
-                        </a>
+                    <li className={`${contactSelected && 'navActive'}`}>
+                        <p
+                            onClick={() => {
+                                setAboutSelected(false);
+                                setContactSelected(true);
+                                setPortfolioSelected(false);
+                                setResumeSelected(false);
+                            }}
+
+                            >Contact
+                        </p>
                     </li>
-                    <li>
-                        <a href="/">
-                            Portfolio
-                        </a>
+                    <li className={`${portfolioSelected && 'navActive'}`}>
+                        <p
+                            onClick={() => {
+                                setAboutSelected(false);
+                                setContactSelected(false);
+                                setPortfolioSelected(true);
+                                setResumeSelected(false);
+                            }}
+
+                            >Portfolio
+                        </p>
                     </li>
-                    <li>
-                        <a href="/">
-                            Resume
-                        </a>
+                    <li className={`${resumeSelected && 'navActive'}`}>
+                        <p
+                            onClick={() => {
+                                setAboutSelected(false);
+                                setContactSelected(false);
+                                setPortfolioSelected(false);
+                                setResumeSelected(true);
+                            }}
+                            
+                            >Resume
+                        </p>
                     </li>
                 </ul>
             </nav>
