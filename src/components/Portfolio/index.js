@@ -1,21 +1,14 @@
-import React from 'react'; 
+import React from 'react';
 
 function Portfolio({ projects }) {
     return (
         <section>
-            {projects.map((project) => {
-                <div>
-                    <span>
-                        {project.title}
-                    </span>
-                    {/* <img
-                        src={require(``).default}
-                        alt={project.title}
-                    /> */}
+            {projects.map((item) => {
+                return (
                     <div>
-                        <a href={project.link}/>
+                        <h1>{item.title}</h1>
                     </div>
-                </div>
+                )
             })}
         </section>
     )

@@ -13,40 +13,40 @@ function App() {
 
   const [projects] = useState([
     {
-      image: '',
+      // image: '',
       title: 'Med Planner',
-      link: '',
+      link: 'https://med-planner-app.herokuapp.com',
       repo: 'https://github.com/mmgleave/med-planner'
     },
     {
-      image: '',
-      title: '',
-      link: '',
-      repo: ''
+      // image: '',
+      title: 'Note Taker',
+      link: 'https://min-eur-note-taker.herokuapp.com/notes',
+      repo: 'https://github.com/mmgleave/miniature-eureka-note-taker'
     },
     {
-      image: '',
-      title: '',
-      link: '',
-      repo: ''
+      // image: '',
+      title: 'Blue Orchid Blog',
+      link: 'https://blue-orchid-blog.herokuapp.com',
+      repo: 'https://github.com/mmgleave/blue-orchid-blog'
     },
     {
-      image: '',
-      title: '',
-      link: '',
-      repo: ''
+      // image: '',
+      title: 'Horiseon',
+      link: 'https://mmgleave.github.io/horiseon/',
+      repo: 'https://github.com/mmgleave/horiseon'
     },
     {
-      image: '',
-      title: '',
-      link: '',
-      repo: ''
+      // image: '',
+      title: 'JavaScript Quiz Game',
+      link: 'https://mmgleave.github.io/quiz-game/',
+      repo: 'https://github.com/mmgleave/quiz-game'
     },
     {
-      image: '',
-      title: '',
-      link: '',
-      repo: ''
+      // image: '',
+      title: 'Weather Dashboard',
+      link: 'https://mmgleave.github.io/weather-dashboard-01/',
+      repo: 'https://github.com/mmgleave/weather-dashboard-01'
     }
   ])
 
@@ -68,11 +68,11 @@ function App() {
         setResumeSelected={setResumeSelected}
       ></Nav>
       <main>
-        {portfolioSelected ? (<Portfolio project={projects}></Portfolio>)
+        {portfolioSelected ? (<Portfolio projects={projects}/>)
           : contactSelected ? (<ContactForm></ContactForm>)
           : resumeSelected ? (<Resume></Resume>)
           : <About></About>}
-          
+
         <Footer></Footer>
       </main>
     </div>
