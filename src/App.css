@@ -76,6 +76,10 @@
   color:rgb(62, 92, 69)
 }
 
+.inputDiv input, textarea {
+  width: 50%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -27,7 +27,7 @@ function ContactForm() {
             }
         } else {
             if (!event.target.value.length) {
-                setErrorMessage(`${event.target.name} is required.`);
+                setErrorMessage(`${event.target.name} is required`);
             } else {
                 setErrorMessage('');
             }
@@ -40,18 +40,21 @@ function ContactForm() {
                 Contact Me
             </h1>
             <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
+                <div className='inputDiv'>
+                    <label htmlFor="name">Name:</label><br></br>
                     <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
                 </div>
-                <div>
-                    <label htmlFor="email">Email Address:</label>
+                <br></br>
+                <div className='inputDiv'>
+                    <label htmlFor="email">Email Address:</label><br></br>
                     <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
                 </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
+                <br></br>
+                <div className='inputDiv'>
+                    <label htmlFor="message">Message:</label><br></br>
                     <textarea name="message" rows="3" defaultValue={message} onBlur={handleChange} />
                 </div>
+                <br></br>
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
