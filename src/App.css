@@ -42,6 +42,11 @@
 
 .footer p {
   color: white;
+  text-align: center;
+}
+
+.footer img {
+  width: 30px;
 }
 
 #nav {
@@ -56,7 +61,7 @@
 }
 
 #nav li {
-  float: right;
+  float: left;
 }
 
 #nav li a {

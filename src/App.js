@@ -50,21 +50,29 @@ function App() {
     }
   ])
 
+  const [aboutSelected, setAboutSelected] = useState(true);
   const [contactSelected, setContactSelected] = useState(false);
+  const [portfolioSelected, setPortfolioSelected] = useState(false);
+  const [resumeSelected, setResumeSelected] = useState(false);
 
   return (
     <div>
-      <Nav></Nav>
+      <Nav
+        aboutSelected={aboutSelected}
+        setAboutSelected={setAboutSelected}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+        portfolioSelected={portfolioSelected}
+        setPortfolioSelected={setPortfolioSelected}
+        resumeSelected={resumeSelected}
+        setResumeSelected={setResumeSelected}
+      ></Nav>
       <main>
-        {!contactSelected ? (
-          <>
-            <About></About>
-            {/* <Portfolio></Portfolio> */}
-            {/* <Resume></Resume> */}
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
+        {resumeSelected ? (<Resume></Resume>)
+          : contactSelected ? (<ContactForm></ContactForm>)
+            : portfolioSelected ? (<Portfolio></Portfolio>)
+              : (<About></About>)
+        }
         <Footer></Footer>
       </main>
     </div>
