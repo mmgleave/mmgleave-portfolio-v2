@@ -1,3 +1,4 @@
+/* footer styles */
 .footer{
   margin-top: 1rem;
   padding: 1rem;
@@ -15,10 +16,7 @@
   text-align: center;
 }
 
-.footer img {
-  width: 30px;
-}
-
+/* nav styles */
 #nav {
   width: 100%;
   float: left;
@@ -51,15 +49,27 @@
   font-style: italic;
 }
 
+/* form styles */
+
 .inputDiv input, textarea {
   width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* portfolio styles */
+
+.portfolio-item {
+  margin-bottom: 2rem;
+  box-shadow: 2px 5px 5px rgba(62, 92, 69, 0.486);
+}
+
+#portfolio h1 {
+  color: rgb(62, 92, 69);
+  margin-left: 2rem;
+}
+
+.img {
+  width: 75%;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.486);
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }

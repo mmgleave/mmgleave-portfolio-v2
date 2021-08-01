@@ -2,11 +2,18 @@ import React from 'react';
 
 function Portfolio({ projects }) {
     return (
-        <section>
+        <section id='portfolio'>
             {projects.map((item) => {
                 return (
-                    <div>
+                    <div className='portfolio-item'>
                         <h1>{item.title}</h1>
+                        <div>
+                            <img
+                                src={require(`../../assets/images/${item.image}`).default}
+                                alt={item.title}
+                                className='img'
+                            />
+                        </div>
                     </div>
                 )
             })}
