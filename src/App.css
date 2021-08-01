@@ -20,7 +20,7 @@
 #nav {
   width: 100%;
   float: left;
-  margin: 0 0 3em 0;
+  margin: 0 0 3rem 0;
   padding: 0;
   list-style: none;
   background-color: rgb(131, 163, 139);
@@ -51,20 +51,64 @@
 
 /* form styles */
 
+#contact-div {
+  margin-top: 2rem;
+}
+
+#contact h1 {
+  background-color:rgb(14, 78, 85);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
+  text-align: center;
+  color: white;
+  padding-bottom: 1rem;
+}
+
 .inputDiv input, textarea {
-  width: 50%;
+  width: 85%;
+  margin: auto;
+}
+
+#contact button {
+  background-color:rgb(14, 78, 85);
+  border: none;
+  width: 70px;
+  height: 30px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
+}
+
+#contact-div {
+  width: 70%;
+  padding: 3rem;
+  align-items: center;
+  box-shadow: -3px 10px 15px rgba(0, 0, 0, 0.486);
+  margin-top: 2rem;
+  margin: auto;
 }
 
 /* portfolio styles */
 
+#portfolio {
+  margin: auto;
+  width: 85%;
+}
+
 .portfolio-item {
   margin-bottom: 2rem;
-  box-shadow: 2px 5px 5px rgba(62, 92, 69, 0.486);
+  box-shadow: 2px 5px 5px hsla(134, 19%, 30%, 0.486);
 }
 
 #portfolio h1 {
   color: rgb(62, 92, 69);
   margin-left: 2rem;
+  border-bottom: rgb(62, 92, 69);
+}
+
+#portfolio a {
+  color:rgb(14, 78, 85);
+  text-decoration: none;
+  margin: 2rem;
 }
 
 .img {
@@ -72,4 +116,18 @@
   box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.486);
   margin-left: 2rem;
   margin-bottom: 2rem;
+}
+
+/* about me styles */
+#about img {
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.486);
+  margin-left: 2rem;
+}
+
+#about p {
+  padding: 2rem;
+}
+
+#about h1 {
+  margin-left: 2rem;
 }

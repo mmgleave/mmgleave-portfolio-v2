@@ -14,6 +14,8 @@ function Portfolio({ projects }) {
                                 className='img'
                             />
                         </div>
+                        <a href={item.link}>Visit Site</a>
+                        <a href={item.repo}>GitHub</a>
                     </div>
                 )
             })}

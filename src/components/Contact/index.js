@@ -35,33 +35,35 @@ function ContactForm() {
     };
 
     return (
-        <section>
-            <h1>
-                Contact Me
-            </h1>
-            <form onSubmit={handleSubmit}>
-                <div className='inputDiv'>
-                    <label htmlFor="name">Name:</label><br></br>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-                </div>
-                <br></br>
-                <div className='inputDiv'>
-                    <label htmlFor="email">Email Address:</label><br></br>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-                </div>
-                <br></br>
-                <div className='inputDiv'>
-                    <label htmlFor="message">Message:</label><br></br>
-                    <textarea name="message" rows="3" defaultValue={message} onBlur={handleChange} />
-                </div>
-                <br></br>
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
+        <section id='contact'>
+            <div id='contact-div'>
+                <h1>
+                    Contact Me
+                </h1>
+                <form onSubmit={handleSubmit}>
+                    <div className='inputDiv'>
+                        <label htmlFor="name">Name:</label><br></br>
+                        <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
                     </div>
-                )}
-                <button type="submit">Submit</button>
-            </form>
+                    <br></br>
+                    <div className='inputDiv'>
+                        <label htmlFor="email">Email Address:</label><br></br>
+                        <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    </div>
+                    <br></br>
+                    <div className='inputDiv'>
+                        <label htmlFor="message">Message:</label><br></br>
+                        <textarea name="message" rows="3" defaultValue={message} onBlur={handleChange} />
+                    </div>
+                    <br></br>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text">{errorMessage}</p>
+                        </div>
+                    )}
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </section>
     );
 }
