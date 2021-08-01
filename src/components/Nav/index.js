@@ -21,21 +21,23 @@ function Nav(props) {
             </h2>
             <nav>
                 <ul id="nav">
-                    <li className={`${aboutSelected && 'navActive'}`}>
-                        <p
+                    <li>
+                        <span
+                            className={`${aboutSelected && 'navActive'}`}
+
                             onClick={() => {
                                 setAboutSelected(true);
                                 setContactSelected(false);
                                 setPortfolioSelected(false);
                                 setResumeSelected(false);
-                                console.log('about clicked')
                             }}
-
-                            >About Me
-                        </p>
+                        >About Me
+                        </span>
                     </li>
-                    <li className={`${contactSelected && 'navActive'}`}>
-                        <p
+                    <li>
+                        <span
+                            className={`${contactSelected && 'navActive'}`}
+
                             onClick={() => {
                                 setAboutSelected(false);
                                 setContactSelected(true);
@@ -43,11 +45,13 @@ function Nav(props) {
                                 setResumeSelected(false);
                             }}
 
-                            >Contact
-                        </p>
+                        >Contact
+                        </span>
                     </li>
-                    <li className={`${portfolioSelected && 'navActive'}`}>
-                        <p
+                    <li>
+                        <span
+                            className={`${portfolioSelected && 'navActive'}`}
+
                             onClick={() => {
                                 setAboutSelected(false);
                                 setContactSelected(false);
@@ -55,20 +59,22 @@ function Nav(props) {
                                 setResumeSelected(false);
                             }}
 
-                            >Portfolio
-                        </p>
+                        >Portfolio
+                        </span>
                     </li>
-                    <li className={`${resumeSelected && 'navActive'}`}>
-                        <p
+                    <li>
+                        <span
+                            className={`${resumeSelected && 'navActive'}`}
+
                             onClick={() => {
                                 setAboutSelected(false);
                                 setContactSelected(false);
                                 setPortfolioSelected(false);
                                 setResumeSelected(true);
                             }}
-                            
-                            >Resume
-                        </p>
+
+                        >Resume
+                        </span>
                     </li>
                 </ul>
             </nav>

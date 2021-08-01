@@ -13,19 +13,19 @@ function App() {
 
   const [projects] = useState([
     {
-      // image: '',
+      image: './assets/images/med-planner.png',
       title: 'Med Planner',
       link: 'https://med-planner-app.herokuapp.com',
       repo: 'https://github.com/mmgleave/med-planner'
     },
     {
-      // image: '',
+      image: './assets/images/note-taker.png',
       title: 'Note Taker',
       link: 'https://min-eur-note-taker.herokuapp.com/notes',
       repo: 'https://github.com/mmgleave/miniature-eureka-note-taker'
     },
     {
-      // image: '',
+      image: './assets/images/blue-orchid.png',
       title: 'Blue Orchid Blog',
       link: 'https://blue-orchid-blog.herokuapp.com',
       repo: 'https://github.com/mmgleave/blue-orchid-blog'
@@ -43,7 +43,7 @@ function App() {
       repo: 'https://github.com/mmgleave/quiz-game'
     },
     {
-      // image: '',
+      image: './assets/images/weather.png',
       title: 'Weather Dashboard',
       link: 'https://mmgleave.github.io/weather-dashboard-01/',
       repo: 'https://github.com/mmgleave/weather-dashboard-01'
