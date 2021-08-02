@@ -7,6 +7,8 @@ function Portfolio({ projects }) {
                 return (
                     <div className='portfolio-item'>
                         <h1>{item.title}</h1>
+                        <a href={item.link}>Visit Site</a>
+                        <a href={item.repo}>GitHub</a>
                         <div>
                             <img
                                 src={require(`../../assets/images/${item.image}`).default}
@@ -14,8 +16,6 @@ function Portfolio({ projects }) {
                                 className='img'
                             />
                         </div>
-                        <a href={item.link}>Visit Site</a>
-                        <a href={item.repo}>GitHub</a>
                     </div>
                 )
             })}

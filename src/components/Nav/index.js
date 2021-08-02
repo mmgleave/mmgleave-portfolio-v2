@@ -14,11 +14,6 @@ function Nav(props) {
 
     return (
         <header>
-            <h2>
-                <a>
-                    <span>Michelle GLEAVE</span>
-                </a>
-            </h2>
             <nav>
                 <ul id="nav">
                     <li>

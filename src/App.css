@@ -1,3 +1,15 @@
+:root {
+  font-family: 'Montserrat', sans-serif;
+}
+/* header styles */
+#header {
+  background-image: url('../src/assets/images/header.jpg');
+  background-position: center;
+  background-position-y: 150px;
+  padding: 2rem;
+  color: white;
+}
+
 /* footer styles */
 .footer{
   margin-top: 1rem;
@@ -78,13 +90,24 @@
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
 }
 
-#contact-div {
+#contact-div, #resume {
   width: 70%;
   padding: 3rem;
   align-items: center;
   box-shadow: -3px 10px 15px rgba(0, 0, 0, 0.486);
   margin-top: 2rem;
   margin: auto;
+}
+
+/* resume styles */
+#resume {
+  text-align: center;
+}
+
+#resume h3 {
+  color: black;
+  text-decoration: unset;
+  font-style: normal;
 }
 
 /* portfolio styles */
@@ -95,27 +118,32 @@
 }
 
 .portfolio-item {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
   box-shadow: 2px 5px 5px hsla(134, 19%, 30%, 0.486);
 }
 
 #portfolio h1 {
-  color: rgb(62, 92, 69);
-  margin-left: 2rem;
-  border-bottom: rgb(62, 92, 69);
+  background-color:rgb(14, 78, 85);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
+  text-align: center;
+  color: white;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 #portfolio a {
   color:rgb(14, 78, 85);
   text-decoration: none;
-  margin: 2rem;
+  padding-left: 2rem;
+  font-size: smaller;
 }
 
 .img {
   width: 75%;
-  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.486);
   margin-left: 2rem;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 /* about me styles */

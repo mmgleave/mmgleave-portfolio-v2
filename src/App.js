@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import Header from './components/Header';
 
 function App() {
 
@@ -57,6 +58,7 @@ function App() {
 
   return (
     <div>
+      <Header></Header>
       <Nav
         aboutSelected={aboutSelected}
         setAboutSelected={setAboutSelected}
