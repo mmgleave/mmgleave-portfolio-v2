@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/mmgleave-portfolio-v2/static/css/main.4dda8cb3.chunk.css",
+    "main.js": "/mmgleave-portfolio-v2/static/js/main.c51fb9a2.chunk.js",
+    "main.js.map": "/mmgleave-portfolio-v2/static/js/main.c51fb9a2.chunk.js.map",
+    "runtime-main.js": "/mmgleave-portfolio-v2/static/js/runtime-main.f1be198c.js",
+    "runtime-main.js.map": "/mmgleave-portfolio-v2/static/js/runtime-main.f1be198c.js.map",
+    "static/js/2.67a917c6.chunk.js": "/mmgleave-portfolio-v2/static/js/2.67a917c6.chunk.js",
+    "static/js/2.67a917c6.chunk.js.map": "/mmgleave-portfolio-v2/static/js/2.67a917c6.chunk.js.map",
+    "static/js/3.a57430a1.chunk.js": "/mmgleave-portfolio-v2/static/js/3.a57430a1.chunk.js",
+    "static/js/3.a57430a1.chunk.js.map": "/mmgleave-portfolio-v2/static/js/3.a57430a1.chunk.js.map",
+    "index.html": "/mmgleave-portfolio-v2/index.html",
+    "static/css/main.4dda8cb3.chunk.css.map": "/mmgleave-portfolio-v2/static/css/main.4dda8cb3.chunk.css.map",
+    "static/js/2.67a917c6.chunk.js.LICENSE.txt": "/mmgleave-portfolio-v2/static/js/2.67a917c6.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpeg": "/mmgleave-portfolio-v2/static/media/avatar.f97a1e03.jpeg",
+    "static/media/blue-orchid.png": "/mmgleave-portfolio-v2/static/media/blue-orchid.c6cc49a6.png",
+    "static/media/header.jpg": "/mmgleave-portfolio-v2/static/media/header.c1504883.jpg",
+    "static/media/horiseon.png": "/mmgleave-portfolio-v2/static/media/horiseon.b66dd600.png",
+    "static/media/med-planner.png": "/mmgleave-portfolio-v2/static/media/med-planner.8fc74b0c.png",
+    "static/media/mg-resume-2021.c8980924.pdf": "/mmgleave-portfolio-v2/static/media/mg-resume-2021.c8980924.pdf",
+    "static/media/note-taker.png": "/mmgleave-portfolio-v2/static/media/note-taker.58d09e8a.png",
+    "static/media/portfolio-ss-1.png": "/mmgleave-portfolio-v2/static/media/portfolio-ss-1.fbe5605f.png",
+    "static/media/portfolio-ss-2.png": "/mmgleave-portfolio-v2/static/media/portfolio-ss-2.c3d64120.png",
+    "static/media/portfolio-ss-3.png": "/mmgleave-portfolio-v2/static/media/portfolio-ss-3.465faff6.png",
+    "static/media/portfolio-ss-4.png": "/mmgleave-portfolio-v2/static/media/portfolio-ss-4.31a53136.png",
+    "static/media/quiz-game.png": "/mmgleave-portfolio-v2/static/media/quiz-game.5e5f2119.png",
+    "static/media/weather.png": "/mmgleave-portfolio-v2/static/media/weather.4919f84b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1be198c.js",
+    "static/js/2.67a917c6.chunk.js",
+    "static/css/main.4dda8cb3.chunk.css",
+    "static/js/main.c51fb9a2.chunk.js"
+  ]
+}
