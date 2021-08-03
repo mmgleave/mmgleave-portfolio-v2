@@ -9,7 +9,7 @@ Version 2 Portfolio / Built with React
 ## Description
 ### A portfolio with four sections: about me, contact, resume, and portfolio. 
 
-- [Visit Portfolio Website]( )
+- _[Visit Portfolio Website](https://mmgleave.github.io/mmgleave-portfolio-v2/)_
 
 - _[View Project on GitHub](http://github.com/mmgleave/mmgleave-portfolio-v2)_
 
