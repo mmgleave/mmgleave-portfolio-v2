@@ -1,38 +1,162 @@
-.App {
-  text-align: center;
+:root {
+  font-family: 'Montserrat', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* header styles */
+#header {
+  background-image: url('../src/assets/images/header.jpg');
+  background-position: center;
+  background-position-y: 150px;
+  padding: 2rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* footer styles */
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(131, 163, 139);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid rgb(62, 92, 69);
+  border-top: 1px solid rgb(62, 92, 69);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer p {
+  color: white;
+  text-align: center;
+}
+
+/* nav styles */
+#nav {
+  width: 100%;
+  float: left;
+  margin: 0 0 3rem 0;
+  padding: 0;
+  list-style: none;
+  background-color: rgb(131, 163, 139);
+  border-bottom: 1px solid rgb(62, 92, 69);
+  border-top: 1px solid rgb(62, 92, 69);
+}
+
+#nav li {
+  float: left;
+}
+
+#nav li span {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid rgb(62, 92, 69);
+}
+
+#nav li span:hover {
+  color:rgb(62, 92, 69)
+}
+
+.navActive {  
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* form styles */
+
+#contact-div {
+  margin-top: 2rem;
+}
+
+#contact h1 {
+  background-color:rgb(14, 78, 85);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
+  text-align: center;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.inputDiv input, textarea {
+  width: 85%;
+  margin: auto;
+}
+
+#contact button {
+  background-color:rgb(14, 78, 85);
+  border: none;
+  width: 70px;
+  height: 30px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
+}
+
+#contact-div, #resume {
+  width: 70%;
+  padding: 3rem;
+  align-items: center;
+  box-shadow: -3px 10px 15px rgba(0, 0, 0, 0.486);
+  margin-top: 2rem;
+  margin: auto;
+}
+
+/* resume styles */
+#resume {
+  text-align: center;
+}
+
+#resume h3 {
+  color: black;
+  text-decoration: unset;
+  font-style: normal;
+}
+
+/* portfolio styles */
+
+#portfolio {
+  margin: auto;
+  width: 85%;
+}
+
+.portfolio-item {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 2px 5px 5px hsla(134, 19%, 30%, 0.486);
+}
+
+#portfolio h1 {
+  background-color:rgb(14, 78, 85);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
+  text-align: center;
+  color: white;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#portfolio a {
+  color:rgb(14, 78, 85);
+  text-decoration: none;
+  padding-left: 2rem;
+  font-size: smaller;
+}
+
+.img {
+  width: 75%;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+/* about me styles */
+#about img {
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.486);
+  margin-left: 2rem;
+}
+
+#about p {
+  padding: 2rem;
+  margin: auto;
+}
+
+#about h1 {
+  margin-left: 2rem;
 }
