@@ -1,5 +1,7 @@
 import React from 'react';
 import '../../App.css';
+
+// icons for contact / sites
 import { AiFillGithub } from 'react-icons/ai';
 import { FaLinkedin } from 'react-icons/fa';
 import { IoLogoInstagram } from 'react-icons/io';

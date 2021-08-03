@@ -3,10 +3,11 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
+
+    // form states to generate error messages
+
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-
     const [errorMessage, setErrorMessage] = useState('');
-
     const { name, email, message } = formState;
 
     const handleSubmit = (event) => {

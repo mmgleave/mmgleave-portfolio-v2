@@ -12,6 +12,7 @@ import Header from './components/Header';
 
 function App() {
 
+  // projects with all info
   const [projects] = useState([
     {
       image: 'med-planner.png',
@@ -51,6 +52,7 @@ function App() {
     }
   ])
 
+  // states for tabs (about / contact / portfolio / resume )
   const [aboutSelected, setAboutSelected] = useState(true);
   const [contactSelected, setContactSelected] = useState(false);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
