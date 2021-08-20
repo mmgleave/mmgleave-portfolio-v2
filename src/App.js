@@ -15,6 +15,12 @@ function App() {
   // projects with all info
   const [projects] = useState([
     {
+      image: 'on-the-road.png',
+      title: 'On The Road',
+      link: 'https://ontheroadapp.herokuapp.com',
+      repo: 'https://github.com/mmgleave/OnTheRoad'
+    },
+    {
       image: 'med-planner.png',
       title: 'Med Planner',
       link: 'https://med-planner-app.herokuapp.com',
